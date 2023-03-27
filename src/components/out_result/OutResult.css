@@ -1,0 +1,51 @@
+th {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 2px !important;
+    justify-content: left
+}
+
+td {
+    font-size: 12px;
+    font-weight: 100;
+    padding: 2px !important;
+    justify-content: left;
+}
+
+.ogl {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.h5 {
+    font-weight: 700;
+}
+
+.nhr {
+    font-size: 12px;
+}
+
+.promijni-ul,
+.promijni-p {
+    margin-bottom: 0;
+}
+
+.left-out {
+    margin-top: 10px;
+}
+
+.accordion-button {
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.accordion {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.left-out span {
+    color: tomato;
+    font-weight: 600;
+}

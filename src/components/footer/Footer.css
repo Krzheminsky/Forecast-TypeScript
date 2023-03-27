@@ -1,0 +1,25 @@
+.breadcrumb {
+    margin-top: 10px;
+    font-size: 12px;
+    justify-content: left;
+}
+
+.footer {
+    font-size: 12px;
+}
+
+a.footer:active,
+a.footer:hover,
+a.footer {
+    text-decoration: none;
+    color: #6c757d;
+}
+
+ol.breadcrumb.fixed-bottom {
+    margin-bottom: 0;
+    background-color: #fff;
+}
+
+li.breadcrumb-item.active {
+    margin-left: 24px;
+}

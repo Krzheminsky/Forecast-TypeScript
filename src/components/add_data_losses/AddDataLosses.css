@@ -1,0 +1,60 @@
+.right-add {
+    margin-top: 15px;
+    padding: 0;
+    /* height: 300px; */
+    /*border: 2px solid #ced4da;*/
+}
+
+form {
+    /* border: 1px solid red; */
+    margin-top: 0 !important;
+}
+
+.form-label {
+    font-size: 11px;
+    margin-bottom: 0 !important;
+}
+
+.form-select,
+.form-num {
+    font-size: 10px;
+    height: 20px;
+    padding: 2px 3px !important;
+}
+
+.form-num {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    width: 100%;
+}
+
+hr {
+    margin: 5px 0;
+    height: 3px;
+}
+
+.btn-outline-primary {
+    margin-top: 5px;
+    height: 26px;
+    padding: 0 5px;
+}
+
+th {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 2px !important;
+
+}
+
+td {
+    font-size: 12px;
+    font-weight: 100;
+    padding: 2px !important;
+}
+
+.table {
+    margin-bottom: 0;
+    vertical-align: middle;
+
+}

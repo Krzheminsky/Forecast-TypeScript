@@ -1,0 +1,30 @@
+@import url("~leaflet/dist/leaflet.css");
+
+/* body,
+#root, */
+.leaflet-container {
+    margin: 10px auto;
+    height: 85vh;
+    width: 99%;
+    margin: 5px;
+}
+
+.area {
+    color: #013c94;
+    font-size: 11px;
+}
+
+.area h6 {
+    font-size: 10px;
+    color: #0d6efd;
+}
+
+.map-container .container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.map-container .col {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}

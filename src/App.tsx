@@ -1,25 +1,53 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Container, Row, Col } from 'react-bootstrap';
+import MapCoordinate from './components/map-coordinate/MapCoordinate';
+import About from './components/about/About';
+import AddDataChemical from './components/add_data_chemical/AddDataChemical';
+import AddDataLosses from './components/add_data_losses/AddDataLosses';
+import AddWeather from './components/add_weathet/AddWeather';
+import Footer from './components/footer/Footer';
+import OutResult from './components/out_result/OutResult';
+import Header from './components/header/Header';
+import TableChim from './components/table/TableChim';
+import HowToWork from './components/howToWork/HowToWork';
+import Application from './components/application/Application';
+import { Routes, Route } from 'react-router-dom';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container fluid>
+      <Row>
+        <Col>
+          <Header />
+        </Col>
+      </Row>
+      <Row>
+        <Col md={3}>
+          <AddDataChemical />
+          <AddDataLosses />
+          <AddWeather />
+        </Col>
+        <Col md={6}>
+          <Routes>
+            <Route path='/' element={<MapCoordinate />} />
+            <Route path='/about' element={<About />} />
+            <Route path="/how" element={<HowToWork />} />
+            <Route path="/table" element={<TableChim />} />
+            <Route path="/application" element={<Application />} />
+          </Routes>
+        </Col>
+        <Col md={3}>
+          <OutResult />
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <Footer />
+        </Col>
+
+      </Row>
+    </Container>
   );
 }
 
