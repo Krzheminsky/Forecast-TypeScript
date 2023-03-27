@@ -1,12 +1,9 @@
 .right-add {
     margin-top: 15px;
     padding: 0;
-    /* height: 300px; */
-    /*border: 2px solid #ced4da;*/
 }
 
 form {
-    /* border: 1px solid red; */
     margin-top: 0 !important;
 }
 
@@ -47,7 +44,8 @@ th {
 
 }
 
-td {
+.right-add td {
+    width: 160px;
     font-size: 12px;
     font-weight: 100;
     padding: 2px !important;
@@ -56,5 +54,4 @@ td {
 .table {
     margin-bottom: 0;
     vertical-align: middle;
-
 }

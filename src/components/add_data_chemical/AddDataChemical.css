@@ -23,7 +23,7 @@ form {
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
     background-color: #fff;
-    width: 100%;
+    /* width: 100%; */
 }
 
 hr {
@@ -31,16 +31,9 @@ hr {
     height: 3px;
 }
 
-/* button .btn.btn-outline-primary {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-    height: 26px !important;
-} */
-
 .btn-outline-primary {
     margin-top: 5px;
     height: 26px;
-    /* padding: 0 5px; */
 }
 
 th {
@@ -50,7 +43,8 @@ th {
 
 }
 
-td {
+.left-add td {
+    width: 160px;
     font-size: 12px;
     font-weight: 100;
     padding: 2px !important;

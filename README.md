@@ -1,46 +1,18 @@
-# Getting Started with Create React App
+# Forecast
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Before using the Forecast application, the author notes: the Forecast application IS NOT AN OFFICIAL SOURCE for obtaining calculation data, but only helps to quickly calculate and visualize on the map the place and area of ​​the accident, the depth of the spread of primary and secondary clouds, the area of ​​the ZMHZ.
 
-## Available Scripts
+Before starting work, go to the main page with a map of the area. Calculations should be started by filling in the initial data: choice of chemical substance, degree of vertical stability, aggregate state, etc. For the correct operation of the application, before clicking the "Calculate" button, all "Output data" fields must be filled. The height of the pallet should be indicated as 0 - if there is no pallet or piles. Do not forget to indicate the direction of the wind.
 
-In the project directory, you can run:
+The value of the terrain influence factor should be determined based on the value of the complex indicator (appendices 5 and 6 of the methodology). Usually, this indicator is 0.5 for forest-steppe type of vegetation and plain undulating type of relief.
 
-### `npm start`
+After filling in the fields in the "Output data" section, click the "Calculate" button. Calculation data will appear in the "Calculation results" section. It will also be possible to view "Interim calculations" and "Reference information on NKR".
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Next - work with the map. Use the mouse to select the location of the accident on the map and press the left key. The map will display ZMHZ and primary and secondary clouds. If you click on them with the left mouse button, the main calculations will be displayed.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+After superimposing the accident zones on the map, you can proceed with calculations regarding possible losses, fill out the appropriate forms in the section "To calculate possible losses" and click "Calculate".
 
-### `npm test`
+I remind you:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+for use in official documents of calculations regarding the consequences of the spill (release) of hazardous chemicals during accidents at chemically hazardous facilities and transport, please use the order of the Ministry of Internal Affairs of Ukraine dated November 29, 2019 No. 1000 "On the approval of the Methodology..."
+in order to determine the actual ZCHZ, the calculated data obtained are refined by conducting chemical exploration.
