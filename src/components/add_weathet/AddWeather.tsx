@@ -131,7 +131,7 @@ const AddWeather: React.FC = () => {
     }
 
     return (
-        <div className="add-weather">
+        <div className="weather">
             <h6 className="h6">Поточні метеодані</h6>
             <div className="errorr">
                 {status === 'loading' && <span>Завантаження метеоданих з сервера...</span>}
@@ -140,7 +140,7 @@ const AddWeather: React.FC = () => {
             </div>
             <form onSubmit={enterWeather}>
                 <div className="form-group">
-                    <table className="table table-hover">
+                    <table className="table table-hover add-weather">
                         <tbody>
                             <tr>
                                 <th scope="row">Температура повітря (С&#xb0;)</th>
@@ -160,7 +160,7 @@ const AddWeather: React.FC = () => {
                             </tr>
                         </tbody>
                     </table >
-                    <table className="table table-hover">
+                    <table className="table table-hover current-weather">
                         <tbody>
                             <tr>
                                 <th scope="row">{currentWeather()}</th>

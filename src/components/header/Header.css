@@ -33,9 +33,7 @@ a[data-help] {
     text-decoration: none;
     font-weight: 600;
     margin-top: 1px;
-
-
-    margin-right: 20px;
+    /* margin-right: 20px; */
 }
 
 a[data-help]:before {
@@ -61,4 +59,28 @@ a[data-help]:hover:before {
 
 a.nav-link.whats {
     color: #0d6efd !important;
+}
+
+@media screen and (max-width: 1117px) {
+    a.nav-link {
+        font-size: 13px !important;
+    }
+}
+
+@media screen and (max-width: 1075px) {
+    a.nav-link {
+        font-size: 12px !important;
+    }
+}
+
+@media screen and (max-width: 1027px) {
+    a.nav-link {
+        font-size: 11px !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    a.nav-link {
+        font-size: 14px !important;
+    }
 }

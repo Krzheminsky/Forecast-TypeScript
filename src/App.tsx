@@ -10,12 +10,12 @@ import Footer from './components/footer/Footer';
 import OutResult from './components/out_result/OutResult';
 import Header from './components/header/Header';
 import TableChim from './components/table/TableChim';
-import HowToWork from './components/howToWork/HowToWork';
 import Application from './components/application/Application';
 import { Routes, Route } from 'react-router-dom';
 
 const App: React.FC = () => {
   return (
+
     <Container fluid>
       <Row>
         <Col>
@@ -32,7 +32,6 @@ const App: React.FC = () => {
           <Routes>
             <Route path='/' element={<MapCoordinate />} />
             <Route path='/about' element={<About />} />
-            <Route path="/how" element={<HowToWork />} />
             <Route path="/table" element={<TableChim />} />
             <Route path="/application" element={<Application />} />
           </Routes>
@@ -48,6 +47,7 @@ const App: React.FC = () => {
 
       </Row>
     </Container>
+
   );
 }
 
