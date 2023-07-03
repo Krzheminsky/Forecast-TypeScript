@@ -12,6 +12,7 @@ import Header from './components/header/Header';
 import TableChim from './components/table/TableChim';
 import Application from './components/application/Application';
 import { Routes, Route } from 'react-router-dom';
+import OfflineApp from './components/app_offline/OfflineApp';
 
 const App: React.FC = () => {
   return (
@@ -34,6 +35,7 @@ const App: React.FC = () => {
             <Route path='/about' element={<About />} />
             <Route path="/table" element={<TableChim />} />
             <Route path="/application" element={<Application />} />
+            <Route path="/offline" element={<OfflineApp />} />
           </Routes>
         </Col>
         <Col md={3}>

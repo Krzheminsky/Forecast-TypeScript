@@ -148,6 +148,13 @@ const MapCoordinate = () => {
                                         url="https://mt.google.com/vt/lyrs=y&x={x}&y={y}&z={z}"
                                     />
                                 </BaseLayer>
+                                <BaseLayer name='OpenTopoMap'>
+                                    <TileLayer
+                                        attribution='Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
+                                        maxZoom='17'
+                                        url='https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png'
+                                    />
+                                </BaseLayer>
                                 <MapPrint position="bottomleft" sizeModes={['Current', 'A4Portrait', 'A4Landscape']} hideControlContainer={false} title="Друк" />
                                 <MapPrint position="bottomleft" sizeModes={['Current', 'A4Portrait', 'A4Landscape']} hideControlContainer={false} title="Експорт до PNG" exportOnly />
                                 <LayersControl.Overlay checked name="Розрахункова група">

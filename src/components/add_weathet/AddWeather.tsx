@@ -172,7 +172,9 @@ const AddWeather: React.FC = () => {
                         <button
                             type="submit"
                             style={{ paddingTop: 0, marginBottom: 30, paddingRight: 9, paddingLeft: 9 }}
-                            className="btn btn-outline-primary">Внести метео</button>}
+                            className="btn btn-outline-primary"
+                            name="button-add-weather"
+                        >Внести метео</button>}
                 </div>
             </form>
         </div >

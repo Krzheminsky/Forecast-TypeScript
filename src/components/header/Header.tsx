@@ -40,6 +40,9 @@ const Header: React.FC = () => {
                         <li className="nav-item ">
                             <Link className="nav-link menu" to="/application">Мобільний додаток</Link>
                         </li>
+                        <li className="nav-item ">
+                            <Link className="nav-link menu whats" to="/offline">Offline</Link>
+                        </li>
                         <li className="nav-item">
                             <a className="nav-link menu" target="_blank" rel="noreferrer" href="http://nuclearsimulation.inf.ua/" data-help="Моделювання уражаючих факторів ядерного вибуху">NuclearSimulation</a>
                         </li>

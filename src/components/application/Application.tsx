@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 
 const Application: React.FC = () => {
 
     return (
-        <div className="how">
+        <div className="app">
             <h6 className="about-h3">Завантажуйте мобільний додаток! </h6>
 
             <p>До Вашої уваги мобільний застосунок Forecast, <a href="http://forecast.inf.ua/app-release.apk" download="" title="Завантажити мобільний застосунок Forecast">завантажуйте будь ласка.</a> Цей застосунок сторено під платформу Android.</p>

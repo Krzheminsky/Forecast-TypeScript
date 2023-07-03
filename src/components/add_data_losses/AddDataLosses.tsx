@@ -73,7 +73,12 @@ const AddDataLosses: React.FC = () => {
                             </tr>
                         </tbody>
                     </table >
-                    <button style={{ paddingTop: 0 }} type="submit" className="btn btn-outline-primary btn-2">Розрахувати</button>
+                    <button
+                        style={{ paddingTop: 0 }}
+                        type="submit"
+                        className="btn btn-outline-primary btn-2"
+                        name="button-add-losses"
+                    >Розрахувати</button>
                 </div>
             </form>
         </div>

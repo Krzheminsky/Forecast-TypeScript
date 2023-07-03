@@ -20,7 +20,7 @@
     }
 }
 
-@media (max-width: 1270) {
+@media (max-width: 1270px) {
     menu {
         font-size: 45px !important;
     }
@@ -61,26 +61,32 @@ a.nav-link.whats {
     color: #0d6efd !important;
 }
 
-@media screen and (max-width: 1117px) {
+@media screen and (max-width: 1180px) {
     a.nav-link {
         font-size: 13px !important;
     }
 }
 
-@media screen and (max-width: 1075px) {
+@media screen and (max-width: 1130px) {
     a.nav-link {
         font-size: 12px !important;
     }
 }
 
-@media screen and (max-width: 1027px) {
+@media screen and (max-width: 1085px) {
     a.nav-link {
         font-size: 11px !important;
     }
 }
 
+@media screen and (max-width: 1034px) {
+    a.nav-link {
+        font-size: 10px !important;
+    }
+}
+
 @media screen and (max-width: 991px) {
     a.nav-link {
-        font-size: 14px !important;
+        font-size: 13px !important;
     }
 }

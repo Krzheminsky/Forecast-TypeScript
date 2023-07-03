@@ -176,6 +176,7 @@ const AddDataChemical: React.FC = () => {
                     <button
                         type="submit"
                         style={{ paddingTop: 0 }}
+                        name="button-add-chimistry"
                         className="btn btn-outline-primary">Розрахувати</button>
                 </div>
             </form>
